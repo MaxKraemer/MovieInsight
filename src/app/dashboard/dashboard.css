@@ -60,10 +60,9 @@ body {
   flex-direction: column;
   position: relative;
   color: #fdf2ff;
-  white-space: nowrap;          /* alles in einer Zeile halten */
+  white-space: nowrap;
 }
 
-/* Unterstrich in Lila/Pink */
 .logo-text::after {
   content: "";
   position: absolute;
@@ -78,7 +77,6 @@ body {
     0 0 14px #b347ff;
 }
 
-/* „Movie“ – Badge mit dunklem Violett */
 .logo-primary {
   padding: 0.18rem 0.7rem;
   background: radial-gradient(circle at 20% 0%, #b347ff 0, #3a124b 40%, #1a0824 100%);
@@ -89,7 +87,6 @@ body {
     0 0 20px rgba(255, 102, 196, 0.5);
 }
 
-/* Kleine „Lichtpunkte“ */
 .logo-primary::before,
 .logo-primary::after {
   content: "";
@@ -102,7 +99,6 @@ body {
   margin: 0 0.18rem;
 }
 
-/* „Insight“ – reiner Pink/Purple‑Verlauf als Text */
 .logo-secondary {
   background: linear-gradient(120deg, #ff66c4, #ff99ff, #b347ff);
   -webkit-background-clip: text;
@@ -113,7 +109,6 @@ body {
     0 0 16px rgba(179, 71, 255, 0.7);
 }
 
-/* Hover-Effekt */
 .logo-text:hover .logo-primary {
   transform: translateY(-1px);
   box-shadow:
