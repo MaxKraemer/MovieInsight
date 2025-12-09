@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --background-gradient: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4c1d95 100%);
+  --sidebar-bg: rgba(30, 27, 75, 0.6);
+  --accent-purple: #8b5cf6;
+  --accent-indigo: #6366f1;
+  --accent-orange: #fb923c;
+  --text-main: #fff;
+  --text-secondary: rgba(255,255,255,0.7);
+  --card-bg: rgba(30, 27, 75, 0.6);
+}
+body {
+  background: var(--background-gradient);
+  color: var(--text-main);
+}
+.sidebar {
+  background: #000000;
+}
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-indigo) 100%);
+  color: var(--text-main);
+}
+.trending-badge {
+  background: rgba(249, 115, 22, 0.2);
+  border-color: rgba(249, 115, 22, 0.4);
+  color: var(--accent-orange);
+}
+.card, .recommendation-card {
+  background: var(--card-bg);
+}
